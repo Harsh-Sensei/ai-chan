@@ -1,204 +1,121 @@
-# This file may be used to create an environment using:
-# $ conda create --name <env> --file <this file>
-# platform: linux-64
-_libgcc_mutex=0.1=main
-_openmp_mutex=5.1=1_gnu
-abseil-cpp=20211102.0=hd4dd3e8_0
-accelerate=0.28.0=pypi_0
-aiohttp=3.9.3=pypi_0
-aiosignal=1.3.1=pypi_0
-altair=5.0.1=py312h06a4308_0
-annotated-types=0.6.0=pypi_0
-arrow-cpp=14.0.2=h374c478_1
-attrs=23.1.0=py312h06a4308_0
-aws-c-auth=0.6.19=h5eee18b_0
-aws-c-cal=0.5.20=hdbd6064_0
-aws-c-common=0.8.5=h5eee18b_0
-aws-c-compression=0.2.16=h5eee18b_0
-aws-c-event-stream=0.2.15=h6a678d5_0
-aws-c-http=0.6.25=h5eee18b_0
-aws-c-io=0.13.10=h5eee18b_0
-aws-c-mqtt=0.7.13=h5eee18b_0
-aws-c-s3=0.1.51=hdbd6064_0
-aws-c-sdkutils=0.1.6=h5eee18b_0
-aws-checksums=0.1.13=h5eee18b_0
-aws-crt-cpp=0.18.16=h6a678d5_0
-aws-sdk-cpp=1.10.55=h721c034_0
-bitarray=2.9.2=pypi_0
-bitsandbytes=0.43.0=pypi_0
-blas=1.0=mkl
-blinker=1.6.2=py312h06a4308_0
-blis=0.7.11=pypi_0
-boost-cpp=1.82.0=hdb19cb5_2
-bottleneck=1.3.7=py312ha883a20_0
-brotli-python=1.0.9=py312h6a678d5_7
-bzip2=1.0.8=h5eee18b_5
-c-ares=1.19.1=h5eee18b_0
-ca-certificates=2024.3.11=h06a4308_0
-cachetools=4.2.2=pyhd3eb1b0_0
-catalogue=2.0.10=pypi_0
-certifi=2024.2.2=py312h06a4308_0
-charset-normalizer=2.0.4=pyhd3eb1b0_0
-click=8.1.7=py312h06a4308_0
-cloudpathlib=0.16.0=pypi_0
-colbert-ai=0.2.19=pypi_0
-confection=0.1.4=pypi_0
-cuda-cudart=12.4.99=0
-cymem=2.0.8=pypi_0
-datasets=2.18.0=pypi_0
-dill=0.3.8=pypi_0
-en-core-web-sm=3.7.1=pypi_0
-expat=2.5.0=h6a678d5_0
-faiss-gpu=1.8.0=py3.12_h4c7d538_0_cuda12.1.1
-filelock=3.9.0=pypi_0
-flask=3.0.2=pypi_0
-freetype=2.12.1=h4a9f257_0
-frozenlist=1.4.1=pypi_0
-fsspec=2024.2.0=pypi_0
-gflags=2.2.2=h6a678d5_1
-git-python=1.0.3=pypi_0
-gitdb=4.0.7=pyhd3eb1b0_0
-gitpython=3.1.37=py312h06a4308_0
-glog=0.5.0=h6a678d5_1
-grpc-cpp=1.48.2=he1ff14a_1
-huggingface-hub=0.21.4=pypi_0
-icu=73.1=h6a678d5_0
-idna=3.4=py312h06a4308_0
-intel-openmp=2023.1.0=hdb19cb5_46306
-itsdangerous=2.1.2=pypi_0
-jinja2=3.1.3=py312h06a4308_0
-jpeg=9e=h5eee18b_1
-jsonschema=4.19.2=py312h06a4308_0
-jsonschema-specifications=2023.7.1=py312h06a4308_0
-krb5=1.20.1=h143b758_1
-langcodes=3.3.0=pypi_0
-lcms2=2.12=h3be6417_0
-ld_impl_linux-64=2.38=h1181459_1
-lerc=3.0=h295c915_0
-libboost=1.82.0=h109eef0_2
-libbrotlicommon=1.0.9=h5eee18b_7
-libbrotlidec=1.0.9=h5eee18b_7
-libbrotlienc=1.0.9=h5eee18b_7
-libcublas=12.4.2.65=0
-libcurl=8.5.0=h251f7ec_0
-libdeflate=1.17=h5eee18b_1
-libedit=3.1.20230828=h5eee18b_0
-libev=4.33=h7f8727e_1
-libevent=2.1.12=hdbd6064_1
-libfaiss=1.8.0=h046e95b_0_cuda12.1.1
-libffi=3.4.4=h6a678d5_0
-libgcc-ng=11.2.0=h1234567_1
-libgomp=11.2.0=h1234567_1
-libnghttp2=1.57.0=h2d74bed_0
-libpng=1.6.39=h5eee18b_0
-libprotobuf=3.20.3=he621ea3_0
-libssh2=1.10.0=hdbd6064_2
-libstdcxx-ng=11.2.0=h1234567_1
-libthrift=0.15.0=h1795dd8_2
-libtiff=4.5.1=h6a678d5_0
-libuuid=1.41.5=h5eee18b_0
-libwebp-base=1.3.2=h5eee18b_0
-lz4-c=1.9.4=h6a678d5_0
-markdown-it-py=2.2.0=py312h06a4308_1
-markupsafe=2.1.3=py312h5eee18b_0
-mdurl=0.1.0=py312h06a4308_0
-mkl=2023.1.0=h213fc3f_46344
-mkl-service=2.4.0=py312h5eee18b_1
-mkl_fft=1.3.8=py312h5eee18b_0
-mkl_random=1.2.4=py312hdb19cb5_0
-mpmath=1.3.0=pypi_0
-multidict=6.0.5=pypi_0
-multiprocess=0.70.16=pypi_0
-murmurhash=1.0.10=pypi_0
-ncurses=6.4=h6a678d5_0
-networkx=3.2.1=pypi_0
-ninja=1.11.1.1=pypi_0
-numexpr=2.8.7=py312hf827012_0
-numpy=1.26.4=py312hc5e2394_0
-numpy-base=1.26.4=py312h0da6c21_0
-nvidia-cublas-cu11=11.11.3.6=pypi_0
-nvidia-cuda-cupti-cu11=11.8.87=pypi_0
-nvidia-cuda-nvrtc-cu11=11.8.89=pypi_0
-nvidia-cuda-runtime-cu11=11.8.89=pypi_0
-nvidia-cudnn-cu11=8.7.0.84=pypi_0
-nvidia-cufft-cu11=10.9.0.58=pypi_0
-nvidia-curand-cu11=10.3.0.86=pypi_0
-nvidia-cusolver-cu11=11.4.1.48=pypi_0
-nvidia-cusparse-cu11=11.7.5.86=pypi_0
-nvidia-nccl-cu11=2.19.3=pypi_0
-nvidia-nvtx-cu11=11.8.86=pypi_0
-openjpeg=2.4.0=h3ad879b_0
-openssl=3.0.13=h7f8727e_0
-orc=1.7.4=hb3bc3d3_1
-packaging=23.2=py312h06a4308_0
-pandas=2.2.1=py312h526ad5a_0
-pillow=10.2.0=py312h5eee18b_0
-pip=23.3.1=py312h06a4308_0
-preshed=3.0.9=pypi_0
-protobuf=3.20.3=py312h6a678d5_0
-psutil=5.9.8=pypi_0
-pyarrow=14.0.2=py312hb107042_0
-pyarrow-hotfix=0.6=pypi_0
-pydantic=2.6.4=pypi_0
-pydantic-core=2.16.3=pypi_0
-pydeck=0.8.0=py312h06a4308_2
-pygments=2.15.1=py312h06a4308_1
-pysocks=1.7.1=py312h06a4308_0
-python=3.12.2=h996f2a0_0
-python-dateutil=2.8.2=pyhd3eb1b0_0
-python-dotenv=1.0.1=pypi_0
-python-tzdata=2023.3=pyhd3eb1b0_0
-pytz=2023.3.post1=py312h06a4308_0
-pyyaml=6.0.1=py312h5eee18b_0
-re2=2022.04.01=h295c915_0
-readline=8.2=h5eee18b_0
-referencing=0.30.2=py312h06a4308_0
-regex=2023.12.25=pypi_0
-requests=2.31.0=py312h06a4308_1
-rich=13.3.5=py312h06a4308_1
-rpds-py=0.10.6=py312hb02cf49_0
-s2n=1.3.27=hdbd6064_0
-safetensors=0.4.2=pypi_0
-scipy=1.12.0=pypi_0
-setuptools=68.2.2=py312h06a4308_0
-six=1.16.0=pyhd3eb1b0_1
-smart-open=6.4.0=pypi_0
-smmap=4.0.0=pyhd3eb1b0_0
-snappy=1.1.10=h6a678d5_1
-spacy=3.7.4=pypi_0
-spacy-legacy=3.0.12=pypi_0
-spacy-loggers=1.0.5=pypi_0
-sqlite=3.41.2=h5eee18b_0
-srsly=2.4.8=pypi_0
-streamlit=1.32.0=py312h06a4308_0
-sympy=1.12=pypi_0
-tbb=2021.8.0=hdb19cb5_0
-tenacity=8.2.2=py312h06a4308_1
-thinc=8.2.3=pypi_0
-tk=8.6.12=h1ccaba5_0
-tokenizers=0.15.2=pypi_0
-toml=0.10.2=pyhd3eb1b0_0
-toolz=0.12.0=py312h06a4308_0
-torch=2.2.1+cu118=pypi_0
-torchaudio=2.2.1+cu118=pypi_0
-torchvision=0.17.1+cu118=pypi_0
-tornado=6.3.3=py312h5eee18b_0
-tqdm=4.66.2=pypi_0
-transformers=4.39.0=pypi_0
-typer=0.9.0=pypi_0
-typing_extensions=4.9.0=py312h06a4308_1
-tzdata=2024a=h04d1e81_0
-ujson=5.9.0=pypi_0
-urllib3=2.1.0=py312h06a4308_1
-utf8proc=2.6.1=h5eee18b_1
-wasabi=1.1.2=pypi_0
-watchdog=2.1.6=py312h06a4308_0
-weasel=0.3.4=pypi_0
-werkzeug=3.0.1=pypi_0
-wheel=0.41.2=py312h06a4308_0
-xxhash=3.4.1=pypi_0
-xz=5.4.6=h5eee18b_0
-yaml=0.2.5=h7b6447c_0
-yarl=1.9.4=pypi_0
-zlib=1.2.13=h5eee18b_0
-zstd=1.5.5=hc292b87_0
+accelerate==0.28.0
+aiohttp==3.9.3
+aiosignal==1.3.1
+altair @ file:///work/perseverance-python-buildout/croot/altair_1698866618831/work
+annotated-types==0.6.0
+attrs @ file:///work/perseverance-python-buildout/croot/attrs_1698845858439/work
+bitarray==2.9.2
+bitsandbytes==0.43.0
+blinker @ file:///work/perseverance-python-buildout/croot/blinker_1698846408677/work
+blis==0.7.11
+Bottleneck @ file:///croot/bottleneck_1709069899917/work
+Brotli @ file:///work/perseverance-python-buildout/croot/brotli-split_1698805593785/work
+cachetools @ file:///tmp/build/80754af9/cachetools_1619597386817/work
+catalogue==2.0.10
+certifi @ file:///croot/certifi_1707229174982/work/certifi
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+click @ file:///work/perseverance-python-buildout/croot/click_1698845879718/work
+cloudpathlib==0.16.0
+colbert-ai==0.2.19
+confection==0.1.4
+cymem==2.0.8
+datasets==2.18.0
+dill==0.3.8
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl#sha256=86cc141f63942d4b2c5fcee06630fd6f904788d2f0ab005cce45aadb8fb73889
+faiss==1.8.0
+filelock==3.9.0
+Flask==3.0.2
+frozenlist==1.4.1
+fsspec==2024.2.0
+git-python==1.0.3
+gitdb @ file:///tmp/build/80754af9/gitdb_1617117951232/work
+GitPython @ file:///work/perseverance-python-buildout/croot/gitpython_1698887140758/work
+huggingface-hub==0.21.4
+idna @ file:///work/perseverance-python-buildout/croot/idna_1698845632828/work
+itsdangerous==2.1.2
+Jinja2 @ file:///work/perseverance-python-buildout/croot/jinja2_1707343043683/work
+jsonschema @ file:///work/perseverance-python-buildout/croot/jsonschema_1701731705290/work
+jsonschema-specifications @ file:///work/perseverance-python-buildout/croot/jsonschema-specifications_1701731664072/work
+langcodes==3.3.0
+markdown-it-py @ file:///work/perseverance-python-buildout/croot/markdown-it-py_1698846045803/work
+MarkupSafe @ file:///work/perseverance-python-buildout/croot/markupsafe_1707342994941/work
+mdurl @ file:///work/perseverance-python-buildout/croot/mdurl_1698845653285/work
+mkl-fft @ file:///work/perseverance-python-buildout/croot/mkl_fft_1698845673361/work
+mkl-random @ file:///work/perseverance-python-buildout/croot/mkl_random_1698845720894/work
+mkl-service==2.4.0
+mpmath==1.3.0
+multidict==6.0.5
+multiprocess==0.70.16
+murmurhash==1.0.10
+networkx==3.2.1
+ninja==1.11.1.1
+numexpr @ file:///work/perseverance-python-buildout/croot/numexpr_1698871031164/work
+numpy @ file:///croot/numpy_and_numpy_base_1708638617955/work/dist/numpy-1.26.4-cp312-cp312-linux_x86_64.whl#sha256=1d700f51d8b4fa684d858c9e3b56b1656bc5c82b6b79ff08d4e3b491c430059f
+nvidia-cublas-cu11==11.11.3.6
+nvidia-cuda-cupti-cu11==11.8.87
+nvidia-cuda-nvrtc-cu11==11.8.89
+nvidia-cuda-runtime-cu11==11.8.89
+nvidia-cudnn-cu11==8.7.0.84
+nvidia-cufft-cu11==10.9.0.58
+nvidia-curand-cu11==10.3.0.86
+nvidia-cusolver-cu11==11.4.1.48
+nvidia-cusparse-cu11==11.7.5.86
+nvidia-nccl-cu11==2.19.3
+nvidia-nvtx-cu11==11.8.86
+packaging @ file:///croot/packaging_1710807400464/work
+pandas @ file:///croot/pandas_1709590491089/work/dist/pandas-2.2.1-cp312-cp312-linux_x86_64.whl#sha256=5802047a01a8af8f4a2d6aa0e3e9e6a659b7dcb47f027e62c94eab8c10d85ba7
+pillow @ file:///croot/pillow_1707233021655/work
+preshed==3.0.9
+protobuf==3.20.3
+psutil==5.9.8
+pyarrow @ file:///croot/pyarrow_1707330824290/work/python
+pyarrow-hotfix==0.6
+pydantic==2.6.4
+pydantic_core==2.16.3
+pydeck @ file:///croot/pydeck_1706194064552/work
+Pygments @ file:///work/perseverance-python-buildout/croot/pygments_1698846270603/work
+PySocks @ file:///work/perseverance-python-buildout/croot/pysocks_1698845478203/work
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+python-dotenv==1.0.1
+pytz @ file:///work/perseverance-python-buildout/croot/pytz_1698849876288/work
+PyYAML @ file:///work/perseverance-python-buildout/croot/pyyaml_1698849903511/work
+referencing @ file:///work/perseverance-python-buildout/croot/referencing_1701731622327/work
+regex==2023.12.25
+requests @ file:///croot/requests_1707355572290/work
+rich @ file:///work/perseverance-python-buildout/croot/rich_1698846912932/work
+rpds-py @ file:///work/perseverance-python-buildout/croot/rpds-py_1698982686240/work
+safetensors==0.4.2
+scipy==1.12.0
+setuptools==68.2.2
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+smart-open==6.4.0
+smmap @ file:///tmp/build/80754af9/smmap_1611694433573/work
+spacy==3.7.4
+spacy-legacy==3.0.12
+spacy-loggers==1.0.5
+srsly==2.4.8
+streamlit @ file:///croot/streamlit_1710262506170/work
+sympy==1.12
+tenacity @ file:///work/perseverance-python-buildout/croot/tenacity_1698863691366/work
+thinc==8.2.3
+tokenizers==0.15.2
+toml @ file:///tmp/build/80754af9/toml_1616166611790/work
+toolz @ file:///work/perseverance-python-buildout/croot/toolz_1698846367152/work
+torch==2.2.1+cu118
+torchaudio==2.2.1+cu118
+torchvision==0.17.1+cu118
+tornado @ file:///work/perseverance-python-buildout/croot/tornado_1698866362018/work
+tqdm==4.66.2
+transformers==4.39.0
+typer==0.9.0
+typing_extensions @ file:///croot/typing_extensions_1705619912070/work
+tzdata @ file:///croot/python-tzdata_1690578112552/work
+ujson==5.9.0
+urllib3 @ file:///croot/urllib3_1707770551213/work
+wasabi==1.1.2
+watchdog @ file:///work/perseverance-python-buildout/croot/watchdog_1698875688132/work
+weasel==0.3.4
+Werkzeug==3.0.1
+wheel==0.41.2
+xxhash==3.4.1
+yarl==1.9.4
